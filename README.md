@@ -1,5 +1,6 @@
 # nanonn
 
+[![ci](https://github.com/zserge/nanonn/workflows/CI/badge.svg)](https://github.com/zserge/nanonn)
 [![go.dev reference](https://img.shields.io/badge/go.dev-reference-007d9c?logo=go&logoColor=white&style=flat-square)](https://pkg.go.dev/github.com/zserge/nanonn/go)
 [![Go Report Card](https://goreportcard.com/badge/github.com/zserge/nanonn)](https://goreportcard.com/report/github.com/zserge/nanonn)
 
@@ -19,12 +20,15 @@ In no sense it is a replacement for Tensorflow or PyTorch, but you might find th
 * Zero dependencies. Seriously, very lightweight.
 * Comes with tests, benchmarks and examples.
 
+Here's for example an [MNIST demo in JavaScript](https://zserge.com/nanonn/js/mnist.html) to show you what NanoNN can do.
+
 ## Implementations
 
 * [C](c), good old C89, no memory allocations, vectorization where possible.
 * [JavaScript](js), ES6, less than 1KB minified and gzipped, your browser won't even notice.
 * [Go](go), straight and to the point.
 * [Python](python), it's math after all. No numpy knowledge is required.
+* [Kotlin](kotlin), because Android. Thanks to [@krugloid](https://github.com/krugloid)
 * Java, the most boring one. Coming soon.
 * Swift, at least it's not Objective-C. Coming soon.
 * Rust, because WebAssembly. Help wanted.
